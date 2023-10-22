@@ -15,6 +15,8 @@ This is multi-module maven project demonstrates Apache Kafka in Spring Boot appl
     - https://kafka.apache.org/quickstart
 - Maven 3.x
 - Junit 5.x
+- Live event stream source:
+      - https://stream.wikimedia.org/v2/stream/recentchange
 
 ## The Solution
 - Implemented microservices in Spring Boot talking to Kafka as messaging solutions.
