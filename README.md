@@ -19,5 +19,5 @@ This is multi-module maven project demonstrates Apache Kafka in Spring Boot appl
 ## The Solution
 - Implemented microservices in Spring Boot talking to Kafka as messaging solutions.
 - This project contains two Spring Boot microservices 'kafka-producer-wikimedia' and 'kafka-consumer-database'
-- EventStreams is a web service that exposes continuous streams of structured event data.
+- EventStream is a web service that exposes continuous streams of structured event data.
 - This project reads realtime stream data events from "https://stream.wikimedia.org/v2/stream/recentchange" in microservice 'kafka-producer-wikimedia' and send those events to the consumer microservice 'kafka-consumer-database'
